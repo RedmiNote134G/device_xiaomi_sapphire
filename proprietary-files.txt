@@ -1647,12 +1647,14 @@ product/etc/permissions/UimService.xml
 product/framework/uimgbalibrary.jar
 product/framework/uimgbamanagerlibrary.jar
 product/framework/uimservicelibrary.jar
+system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/app/DeviceInfo/DeviceInfo.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/app/atfwd/atfwd.apk
 system_ext/etc/permissions/privapp-permissions-qti-system-ext.xml
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_permissions.xml
+system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
 system_ext/framework/qcrilhook.jar
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/app/IWlanService/IWlanService.apk
