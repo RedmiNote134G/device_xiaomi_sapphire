@@ -11,20 +11,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sapphire device
 $(call inherit-product, device/xiaomi/sapphire/device.mk)
 
-# Inherit some common Lineage stuff.
+# Include our private certificate
+-include vendor/lineage-priv/keys/keys.mk
+
+# Inherit some common OrionOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+ORION_MAINTAINER := bmwtheseries
+ORION_MAINTAINER_LINK := https://t.me/bmwtheseries
+ORION_GAPPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS :=  true
 
-# Device configs
-TARGET_BOOT_ANIMATION_RES = 1080
-TARGET_HAS_UDFPS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
 
-# Extra Stuffs
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_MINI_GAPPS := true
-TARGET_ENABLE_BLUR := false
-EVO_BUILD_TYPE := Official
-
-PRODUCT_NAME := lineage_sapphire
+PRODUCT_NAME := orion_sapphire
 PRODUCT_DEVICE := sapphire
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sapphire.mk
+    $(LOCAL_DIR)/orion_sapphire.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sapphire-user \
-    lineage_sapphire-userdebug \
-    lineage_sapphire-eng
+    orion_sapphire-ap2a-user \
+    orion_sapphire-ap2a-userdebug \
+    orion_sapphire-ap2a-eng
