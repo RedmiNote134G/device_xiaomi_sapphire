@@ -926,7 +926,7 @@ vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdpps.so
-vendor/lib64/libgpudataproducer.so
+vendor/lib64/libgpudataproducer.so|5a16b3fb69afefb02a8cc4ec9c189fd8
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libhistogram.so
 vendor/lib64/libqseed3.so
@@ -1187,23 +1187,23 @@ vendor/lib/libkernelmanager.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libllvm-qgl.so
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
+vendor/lib64/egl/eglSubDriverAndroid.so|d21b9946f42bd8e0c1bbab39d39bed81
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|b2a964578a9f887cb492765ee69f3599
 vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
-vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|1debdea31aab0bf0f9a51b817f849f13
+vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so|d571816882f16ddf61e68f9dc04d8ba2
 vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/libCB.so
+vendor/lib64/egl/libq3dtools_esx.so|0babd6cd70136dcb9efc728f8e775d91
+vendor/lib64/libCB.so|04f488e904196482c316db6597fab336
 vendor/lib64/libOpenCL.so
-vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libgsl.so
-vendor/lib64/libkcl.so
-vendor/lib64/libkernelmanager.so
-vendor/lib64/libllvm-glnext.so
+vendor/lib64/libadreno_app_profiles.so|2dc91c29bd217d047a9d21d4698f808f
+vendor/lib64/libadreno_utils.so|9ede0e0090e91f145653637a2b5829a7
+vendor/lib64/libgsl.so|c111453dbbebbe88a73ca61b89eeb6b7
+vendor/lib64/libkcl.so|21dab12fcaf98894cc2a84b50860f370
+vendor/lib64/libkernelmanager.so|a1405c48f724c0fcfb5b431d4ec535d8
+vendor/lib64/libllvm-glnext.so|3a9d705027f69dc7d9bd36c5bdeb1b14
 vendor/lib64/libllvm-qcom.so
-vendor/lib64/libllvm-qgl.so
+vendor/lib64/libllvm-qgl.so|2aafb875ceb34fb8cd1459e7643d08a9
 
 # HDCP
 vendor/bin/hdcp1prov
@@ -2047,7 +2047,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
 # Vulkan
 vendor/lib/hw/vulkan.adreno.so
-vendor/lib64/hw/vulkan.adreno.so
+vendor/lib64/hw/vulkan.adreno.so|848141563e5191e41455597efc198c41
 
 # Wi-Fi
 vendor/bin/cnss-daemon
