@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sapphire.mk
+    $(LOCAL_DIR)/afterlife_sapphire.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sapphire-user \
-    lineage_sapphire-userdebug \
-    lineage_sapphire-eng
+    afterlife_sapphire-user \
+    afterlife_sapphire-userdebug \
+    afterlife_sapphire-eng
