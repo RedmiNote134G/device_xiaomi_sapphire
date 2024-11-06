@@ -19,7 +19,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 ORION_MAINTAINER := bmwtheseries
 ORION_MAINTAINER_LINK := https://t.me/bmwtheseries
 ORION_GAPPS := true
-TARGET_ENABLE_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS :=  true
 
