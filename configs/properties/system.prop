@@ -82,3 +82,12 @@ ro.hardware.wlan.dbs=0
 ro.hardware.wlan.mimo=0
 ro.hardware.wlan.vendor=qcom
 ro.hardware.wlan.chip=wcn3988
+
+# Infinity-X AboutPhone
+ro.infinity.soc=Snapdragon 685
+ro.infinity.battery=5000mAh
+ro.infinity.display=1080x2400, 120Hz
+ro.infinity.camera=108MP + 8MP + 2MP, 16MP
+
+# Xiaomi
+ro.product.marketname=Redmi Note 13 4G

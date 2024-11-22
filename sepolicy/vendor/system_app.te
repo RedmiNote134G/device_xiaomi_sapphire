@@ -8,3 +8,6 @@ binder_call(system_app, hal_health_default)
 binder_call(system_app, hal_ir_default)
 binder_call(system_app, hal_memtrack_default)
 binder_call(system_app, vendor_hal_gnss_qti)
+
+# allow system apps to read battery status
+r_dir_file(system_app, sysfs_battery_supply)
